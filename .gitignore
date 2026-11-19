@@ -1,0 +1,17 @@
+# OpenTofu working directory and local state
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Local variable values may contain secrets
+terraform.tfvars
+*.auto.tfvars
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

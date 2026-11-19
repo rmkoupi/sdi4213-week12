@@ -1,0 +1,9 @@
+# Copy this file to terraform.tfvars. The real terraform.tfvars file is ignored by Git.
+project_name = "sdi4213-week12"
+web_port     = 8080
+
+# Add these values in Milestone 6 after declaring the variables:
+# adminer_port      = 8081
+# postgres_db       = "helpdesk"
+# postgres_user     = "student"
+# postgres_password = "choose-a-local-lab-password"
