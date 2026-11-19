@@ -3,4 +3,12 @@ output "portal_url" {
   value       = "http://localhost:${var.web_port}"
 }
 
-# WEEK 12 TODO (Milestone 6): Add an adminer_url output.
+output "adminer_url" {
+  description = "URL for the Adminer database UI."
+  value       = "http://localhost:${var.adminer_port}"
+}
+
+output "db_server" {
+  description = "Server name to enter in Adminer (the database container name)."
+  value       = docker_container.db.name
+}
